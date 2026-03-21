@@ -95,6 +95,7 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`. The cor
 /
 ├── README.md
 ├── LICENSE
+├── RIGHTS.md
 ├── .gitignore
 ├── docs/
 │   ├── ANTI_PATTERNS.md
@@ -134,3 +135,11 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`. The cor
 ## Current status
 
 This repository is in the **early protocol draft** stage. The current focus is conceptual architecture, terminology consistency, and documentation quality. No production software is implied by the present repository structure.
+
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
+
+The software and documentation are provided under MIT.  
+The project name, branding, logos, and associated marks are not granted by this license.
