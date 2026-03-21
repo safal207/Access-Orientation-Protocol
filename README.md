@@ -17,7 +17,7 @@ Access Orientation Protocol exists to provide a shared architecture for:
 - preserving continuity during state change;
 - validating action through real-world response rather than internal completion alone.
 
-The protocol is designed as a loop of orientation, transition, and verification. It does not start with output production and it does not end at execution.
+The protocol is designed as a loop of calibration, orientation, transition, movement, and verification. It does not start with output production and it does not end at execution.
 
 ## Canonical cycle
 
@@ -30,7 +30,7 @@ The canonical cycle has eight parts:
 4. **Transition** — cross into a new operative state without rupture.
 5. **Movement** — act from centered orientation rather than panic, inertia, or compulsion.
 6. **Trajectory** — observe the pattern of motion over time.
-7. **Resonance (World)** — test the cycle against external reality and feedback.
+7. **Resonance (World)** — test the cycle against external reality through its feedback, correction, or contradiction.
 
 This is a **resonance loop**, not a one-way pipeline. **Resonance (Self)** is the mandatory entry condition. **Resonance (World)** is the mandatory completion condition. Without **Resonance (World)**, the cycle is incomplete.
 

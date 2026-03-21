@@ -17,6 +17,8 @@ Establish contact with the system's actual internal state before choosing an ent
 - a clearer sense of limits, readiness, and distortion risks;
 - permission or refusal to proceed into the cycle.
 
+Because this is the entry boundary, distortions here propagate forward into every later stage of the cycle.
+
 ### Risks
 - confusing desired state with actual state;
 - mistaking performance, ideology, or momentum for resonance;
