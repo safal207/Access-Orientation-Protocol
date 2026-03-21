@@ -21,7 +21,7 @@ Access Orientation Protocol is not a runtime. It is a meta-orientation layer tha
 Key differences:
 - a runtime executes operations; AOP constrains how operations should be oriented;
 - a runtime can function without self-calibration; AOP treats self-resonance as a mandatory boundary;
-- a runtime may optimize task completion; AOP evaluates integrity, drift, and world feedback.
+- a runtime may optimize task completion; AOP evaluates integrity, drift, and Resonance (World).
 
 ## Access Orientation Protocol vs decision engine
 

@@ -87,7 +87,7 @@ The layers are conceptual rather than software modules. They define relationship
 The protocol can also be used to evaluate models and agent systems. This is an **early derived interpretation**, not part of the minimal protocol core. In that context, the same eight-part loop becomes an assessment frame for how a system enters a task, assembles context, maintains orientation, survives long trajectories, and transfers benchmark performance into real-world usefulness.
 
 This benchmark interpretation does not replace accuracy, latency, cost, or safety metrics. It adds an orientation layer that asks whether benchmark performance is stable, honest, reproducible, and externally validated.
-The first benchmark-specific specification lives in `docs/BENCHMARK.md`.
+The first benchmark-specific specification lives in `docs/BENCHMARK.md`. The core-vs-extension boundary is summarized in `docs/CORE_AND_EXTENSIONS.md`.
 
 ## Repository structure
 
@@ -101,6 +101,7 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`.
 │   ├── ARCHITECTURE.md
 │   ├── BENCHMARK.md
 │   ├── COMPARISON.md
+│   ├── CORE_AND_EXTENSIONS.md
 │   ├── GLOSSARY.md
 │   ├── STRESS_TEST.md
 │   └── TECHNICAL_BRIEF.md
