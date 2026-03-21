@@ -36,4 +36,4 @@ Key differences:
 
 ## Summary
 
-Access Orientation Protocol should be understood as a meta-orientation architecture. It can sit above workflows, runtimes, and decision engines, but it is not reducible to any of them.
+Access Orientation Protocol should be understood as a meta-orientation architecture. It can sit above workflows, runtimes, decision engines, and benchmarking layers, but it is not reducible to any of them.

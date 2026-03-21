@@ -1,7 +1,7 @@
 # Glossary
 
 ## Resonance
-A state of meaningful correspondence between a system and what it is attempting to perceive, organize, or respond to. In this protocol, resonance is not mysticism or emotional intensity; it is usable alignment with actual conditions.
+A state of operationally relevant correspondence between a system and what it is attempting to perceive, organize, or respond to. In this protocol, resonance is not mysticism or emotional intensity; it is alignment that is usable for orientation and action under actual conditions.
 
 ## Access Point
 The true entry or anchor point from which a cycle should begin. It is the point of valid contact, not merely the first visible issue.

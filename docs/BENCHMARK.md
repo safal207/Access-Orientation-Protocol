@@ -1,5 +1,7 @@
 # Access Orientation Benchmark (AOB) v0.1
 
+> This document is an early derived interpretation of the Access Orientation Protocol. It is not part of the minimal protocol core.
+
 Access Orientation Benchmark (AOB) is an evaluation specification derived from the Access Orientation Protocol. It is designed for neural models and agent systems that should be judged not only by output scores, but also by the quality, integrity, and transferability of the path that produced those scores.
 
 AOB does not replace classical benchmarking. It adds an orientation layer to benchmarking.
@@ -9,6 +11,8 @@ AOB does not replace classical benchmarking. It adds an orientation layer to ben
 A conventional benchmark usually answers a narrow question: how well did the system solve the test?
 
 AOB answers a broader question: how stable, honest, coherent, reproducible, and transferable is the system's ability to solve tasks across a full evaluation cycle?
+
+This specification should be treated as an application layer derived from the core protocol, not as a redefinition of the protocol itself.
 
 ## What AOB measures
 

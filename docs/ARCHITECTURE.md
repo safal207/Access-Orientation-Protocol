@@ -167,6 +167,8 @@ Observe the pattern of motion over time rather than judging the cycle from isola
 - signs of drift, coherence, correction, or compounding error;
 - evidence for whether movement is structurally sound.
 
+Trajectory is not equivalent to progress: local success can still reveal long-run drift, rigidity, or compounding error.
+
 ### Risks
 - reducing trajectory to a task history;
 - inferring direction from too little time or evidence;

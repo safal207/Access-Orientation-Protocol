@@ -80,3 +80,12 @@ Most failures in this protocol arise from one of three distortions:
 - replacing reality feedback with internal closure.
 
 These stress cases should be used as review prompts whenever the protocol appears smooth but results remain weak.
+
+## Typical recovery moves
+
+When one of these failures is detected, the preferred response is not acceleration but loop repair:
+- reopen **Resonance (Self)** before advancing;
+- reduce scope until a real **Access Point** becomes visible;
+- refuse forced **Transition** when continuity is broken;
+- suspend claims about **Trajectory** until enough time and evidence exist;
+- seek **Resonance (World)** before declaring completion.

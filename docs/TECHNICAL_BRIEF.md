@@ -6,7 +6,7 @@ Access Orientation Protocol is a loop-based orientation protocol for living syst
 
 ## Core principle
 
-Action is reliable only when it emerges from a correctly oriented loop:
+Action becomes more reliable when it emerges from a correctly oriented loop:
 **Resonance (Self) -> Access Point -> Assembly -> Orientation -> Transition -> Movement -> Trajectory -> Resonance (World)**.
 
 The loop is incomplete if external reality does not answer the cycle.

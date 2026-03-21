@@ -4,6 +4,8 @@
 
 Access Orientation Protocol (AOP) is a documentation-first protocol for orienting action in living systems. It describes how a human, AI agent, team, or adaptive system can move from internal state calibration to externally validated action without reducing the process to a simple linear workflow.
 
+It should be understood as a **meta-orientation layer** that can sit above workflows, agent runtimes, decision engines, and benchmarks without being reducible to any of them.
+
 ## Why this protocol exists
 
 Many systems can execute steps, but they still fail because they enter action from the wrong state, anchor to the wrong problem, assemble the wrong inputs, or mistake internal certainty for contact with reality.
@@ -30,7 +32,7 @@ The canonical cycle has eight parts:
 6. **Trajectory** — observe the pattern of motion over time.
 7. **Resonance (World)** — test the cycle against external reality and feedback.
 
-This is a **resonance loop**, not a one-way pipeline. **Resonance (Self)** is the mandatory entry condition. **Resonance (World)** is the mandatory completion condition. Without world feedback, the cycle is incomplete.
+This is a **resonance loop**, not a one-way pipeline. **Resonance (Self)** is the mandatory entry condition. **Resonance (World)** is the mandatory completion condition. Without **Resonance (World)**, the cycle is incomplete.
 
 ## What it is
 
@@ -82,7 +84,7 @@ The layers are conceptual rather than software modules. They define relationship
 
 ## Benchmark interpretation
 
-The protocol can also be used to evaluate models and agent systems. In that context, the same eight-part loop becomes an assessment frame for how a system enters a task, assembles context, maintains orientation, survives long trajectories, and transfers benchmark performance into real-world usefulness.
+The protocol can also be used to evaluate models and agent systems. This is an **early derived interpretation**, not part of the minimal protocol core. In that context, the same eight-part loop becomes an assessment frame for how a system enters a task, assembles context, maintains orientation, survives long trajectories, and transfers benchmark performance into real-world usefulness.
 
 This benchmark interpretation does not replace accuracy, latency, cost, or safety metrics. It adds an orientation layer that asks whether benchmark performance is stable, honest, reproducible, and externally validated.
 The first benchmark-specific specification lives in `docs/BENCHMARK.md`.
@@ -113,7 +115,8 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`.
 - establish stable terminology;
 - define stage boundaries and invariants;
 - document failure modes and anti-patterns;
-- align diagrams with the textual architecture.
+- align diagrams with the textual architecture;
+- keep the minimal core distinct from later interpretations and extensions.
 
 ### Phase 2: Reference interpretation
 - add worked examples for humans, AI agents, teams, and adaptive systems;
