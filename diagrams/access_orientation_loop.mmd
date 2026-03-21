@@ -1,0 +1,12 @@
+flowchart LR
+    RS["0. Resonance (Self)"] --> AP["1. Access Point"]
+    AP --> AS["2. Assembly"]
+    AS --> OR["3. Orientation"]
+    OR --> TR["4. Transition"]
+    TR --> MV["5. Movement"]
+    MV --> TJ["6. Trajectory"]
+    TJ --> RW["7. Resonance (World)"]
+    RW --> RS
+
+    classDef boundary fill:#eef6ff,stroke:#4472c4,stroke-width:2px;
+    class RS,RW boundary;

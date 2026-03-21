@@ -1,0 +1,17 @@
+flowchart TB
+    subgraph Protocol[Access Orientation Protocol]
+        direction LR
+        RS["Resonance (Self)"] --> AP["Access Point"] --> AS["Assembly"] --> OR["Orientation"] --> TR["Transition"] --> MV["Movement"] --> TJ["Trajectory"] --> RW["Resonance (World)"]
+    end
+
+    World["External reality / feedback"] --> RW
+    RW --> RS
+
+    subgraph Execution[Optional execution and runtime layers below the protocol]
+        direction LR
+        Plan["Planning / routing"] --> Tools["Tool use / execution"] --> Observe["Telemetry / logging"]
+    end
+
+    OR -. constrains .-> Plan
+    MV -. expressed through .-> Tools
+    TJ -. interpreted from .-> Observe
