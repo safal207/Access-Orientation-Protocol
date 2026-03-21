@@ -55,6 +55,7 @@ The protocol is applicable to:
 - **Humans:** personal orientation, decision contexts, recovery from drift;
 - **AI agents:** state-aware prompting, context assembly, execution gating, post-action validation;
 - **Teams:** shared framing, coordination, transition management, feedback loops;
-- **Adaptive systems:** control logic that must relate internal state to external response.
+- **Adaptive systems:** control logic that must relate internal state to external response;
+- **Benchmarking systems:** orientation-aware evaluation, reproducibility, long-run behavior, and world-transfer checks.
 
-It should be treated as a meta-orientation layer that can sit above execution logic, not as the execution logic itself.
+It should be treated as a meta-orientation layer that can sit above execution logic, benchmarking logic, or both, not as either logic itself.

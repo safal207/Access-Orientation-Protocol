@@ -80,6 +80,13 @@ The layers are conceptual rather than software modules. They define relationship
 - Trajectory is a pattern observed across time, not merely a list of steps.
 - Reality-testing matters more than internal satisfaction.
 
+## Benchmark interpretation
+
+The protocol can also be used to evaluate models and agent systems. In that context, the same eight-part loop becomes an assessment frame for how a system enters a task, assembles context, maintains orientation, survives long trajectories, and transfers benchmark performance into real-world usefulness.
+
+This benchmark interpretation does not replace accuracy, latency, cost, or safety metrics. It adds an orientation layer that asks whether benchmark performance is stable, honest, reproducible, and externally validated.
+The first benchmark-specific specification lives in `docs/BENCHMARK.md`.
+
 ## Repository structure
 
 ```text
@@ -90,6 +97,7 @@ The layers are conceptual rather than software modules. They define relationship
 ├── docs/
 │   ├── ANTI_PATTERNS.md
 │   ├── ARCHITECTURE.md
+│   ├── BENCHMARK.md
 │   ├── COMPARISON.md
 │   ├── GLOSSARY.md
 │   ├── STRESS_TEST.md
@@ -109,11 +117,15 @@ The layers are conceptual rather than software modules. They define relationship
 
 ### Phase 2: Reference interpretation
 - add worked examples for humans, AI agents, teams, and adaptive systems;
-- show how the protocol constrains execution layers without becoming one.
+- define evaluation and benchmarking interpretations that apply the protocol without collapsing it into scoring.
 
 ### Phase 3: Reference models
-- introduce lightweight illustrative implementations only where they clarify the protocol;
-- keep code subordinate to the conceptual specification.
+- show how the protocol constrains execution and evaluation layers without becoming either one;
+- introduce lightweight illustrative implementations only where they clarify the protocol.
+
+### Phase 4: Benchmark and transfer
+- formalize the Access Orientation Benchmark as an orientation-aware evaluation spec;
+- connect benchmark results to long-run behavior and world transfer rather than isolated scores.
 
 ## Current status
 
