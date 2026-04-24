@@ -182,3 +182,30 @@ Top risks and mitigations:
 - **Weekly:** implementation sync (owners, blockers, risk review).
 - **Biweekly:** protocol governance review (core boundary protection).
 - **Monthly:** external feedback session focused on clarity and reproducibility.
+
+## What to do now (practical checklist)
+Use this checklist to start execution immediately.
+
+1. **Appoint roles (today).**
+   - Protocol editor (owns core language consistency).
+   - Example lead (owns worked examples and trace artifacts).
+   - QA/review lead (owns contradiction and parity checks).
+2. **Create tracking board (today).**
+   - Columns: Backlog → In Progress → Review → Done.
+   - Labels: `phase-0` ... `phase-5`, `qa`, `governance`, `risk`.
+3. **Open first 8 issues (within 24h).**
+   - One issue per AOP stage contract with the same template.
+4. **Run terminology pass (within 48h).**
+   - Normalize key terms across `README.md` and `/docs`.
+5. **Draft and approve contract template (within 72h).**
+   - Fields: intent, preconditions, invariants, anti-patterns, outputs.
+6. **Publish Week-1 status note (day 7).**
+   - Report: completed tasks, open risks, and next-week commitments.
+
+### Ready-to-copy issue template
+**Title:** `Stage Contract: <Stage Name>`
+
+**Acceptance criteria**
+- Contract includes intent, preconditions, invariants, anti-patterns, outputs.
+- Terms match glossary and architecture definitions.
+- At least one reviewer signs off.
