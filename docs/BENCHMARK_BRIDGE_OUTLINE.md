@@ -3,6 +3,19 @@
 ## Purpose
 Define how orientation-quality signals complement (not replace) classical metrics such as accuracy, latency, cost, and safety.
 
+## Why benchmarks are useful
+- They make orientation quality observable and comparable across runs.
+- They expose hidden failure modes where task scores look good but world transfer is weak.
+- They provide a shared evidence format for review, governance, and iteration.
+- They reduce “internal confidence bias” by requiring external validation signals.
+
+## Who benefits
+- **Protocol designers:** validate whether stage contracts produce stable behavior.
+- **Agent builders / ML teams:** detect drift between benchmark success and real-world usefulness.
+- **Product teams:** choose improvements that increase reliability, not only short-term speed.
+- **Researchers/evaluators:** compare systems on trajectory stability and correction behavior.
+- **Operators and decision makers:** get clear go/no-go evidence before scaling actions.
+
 ## Mapping skeleton
 - Entry integrity (`00-01`) ↔ task framing quality
 - Assembly relevance (`02`) ↔ context precision / noise ratio
