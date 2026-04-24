@@ -3,7 +3,7 @@
 This folder is the next implementation step after 100% stage-contract coverage.
 
 ## Target example set (Phase 2)
-1. `individual_operator.md`
+1. `individual_operator.md` ✅ (initial draft added)
 2. `human_team.md`
 3. `ai_agent.md`
 4. `hybrid_human_ai.md`
@@ -20,3 +20,7 @@ This folder is the next implementation step after 100% stage-contract coverage.
 - Explicit anti-pattern encounter + recovery
 - Reproducible trace references
 - Clear distinction between task completion and orientation success
+
+## Draft artifacts now available
+- Worked example: `individual_operator.md`
+- Machine-readable trace: `traces/individual_operator_cycle_001.json`
