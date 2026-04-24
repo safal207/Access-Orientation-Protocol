@@ -14,6 +14,11 @@ Remaining for next maturity level (post-100% of initial contract scope):
 - Add minimal trace schema and benchmark bridge artifacts.
 - Move contracts from Draft to Reviewed/Approved via governance cadence.
 
+Progress started for this next maturity level:
+- Worked-examples starter pack scaffolded at `docs/examples/README.md`.
+- Minimal trace schema scaffolded at `docs/schema/cycle_trace.schema.json`.
+- Benchmark bridge outline scaffolded at `docs/BENCHMARK_BRIDGE_OUTLINE.md`.
+
 ## Scope and assumptions
 - **In scope:** documentation hardening, reference artifacts, lightweight examples, and validation methodology.
 - **Out of scope (for now):** production runtime, SDKs, and opinionated orchestration frameworks.
