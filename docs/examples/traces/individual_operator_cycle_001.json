@@ -1,0 +1,67 @@
+{
+  "cycle_id": "individual-001",
+  "objective": "Restore sustainable writing trajectory with 5 focused sessions per week",
+  "stages": [
+    {
+      "stage_id": "00",
+      "name": "Resonance (Self)",
+      "status": "ok",
+      "notes": "Calibration captured uncertainty around root cause",
+      "evidence": ["resonance_self.md", "uncertainty_register.md"]
+    },
+    {
+      "stage_id": "01",
+      "name": "Access Point",
+      "status": "ok",
+      "notes": "Entry quality selected over longer hours",
+      "evidence": ["entry_point_decision_table.md"]
+    },
+    {
+      "stage_id": "02",
+      "name": "Assembly",
+      "status": "ok",
+      "notes": "Context bloat prevented via explicit exclusion",
+      "evidence": ["assembly_manifest.md"]
+    },
+    {
+      "stage_id": "03",
+      "name": "Orientation",
+      "status": "ok",
+      "notes": "Relational map produced with ranked directions",
+      "evidence": ["orientation_map.md"]
+    },
+    {
+      "stage_id": "04",
+      "name": "Transition",
+      "status": "ok",
+      "notes": "Entry triggers and rollback conditions defined",
+      "evidence": ["transition_checklist.md"]
+    },
+    {
+      "stage_id": "05",
+      "name": "Movement",
+      "status": "partial",
+      "notes": "Two interruptions corrected with quarantine reset",
+      "evidence": ["movement_log.md", "guardrail_events.md"]
+    },
+    {
+      "stage_id": "06",
+      "name": "Trajectory",
+      "status": "ok",
+      "notes": "Pattern improvement visible over two weeks",
+      "evidence": ["trajectory_report.md"]
+    },
+    {
+      "stage_id": "07",
+      "name": "Resonance (World)",
+      "status": "partial",
+      "notes": "External clarity improved, but one missed deadline",
+      "evidence": ["world_feedback_packet.md"]
+    }
+  ],
+  "world_verdict": "partial",
+  "next_cycle_inputs": [
+    "Introduce estimation checkpoints at session planning",
+    "Keep quarantine window as hard guardrail"
+  ]
+}
