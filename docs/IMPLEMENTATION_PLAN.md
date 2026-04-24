@@ -3,6 +3,17 @@
 ## Purpose
 This plan translates the existing conceptual architecture of AOP into an executable documentation and reference-model program without collapsing the protocol into a rigid task pipeline.
 
+## Implementation status (50% checkpoint)
+Completed artifacts in this repository now cover approximately half of the immediate implementation scope:
+- Stage contract template is published.
+- 4/8 stage contracts are drafted (`00` to `03`).
+- Practical kickoff checklist and issue template are available for execution governance.
+
+Remaining to reach full initial scope:
+- Draft stage contracts `04` to `07`.
+- Add worked examples across four system types.
+- Add minimal trace schema and benchmark bridge artifacts.
+
 ## Scope and assumptions
 - **In scope:** documentation hardening, reference artifacts, lightweight examples, and validation methodology.
 - **Out of scope (for now):** production runtime, SDKs, and opinionated orchestration frameworks.
