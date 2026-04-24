@@ -149,3 +149,36 @@ Top risks and mitigations:
 2. Create issue tracker labels by phase and workstream.
 3. Draft normative template for stage contracts.
 4. Run first terminology consistency pass across `/docs`.
+
+## 30-day execution playbook
+
+### Sprint 1 (Days 1–14)
+**Objective:** harden terminology and core contracts.
+
+**Planned tasks**
+- Build a canonical glossary source-of-truth and map aliases/synonyms.
+- Define one-page contract templates for each core stage.
+- Run a doc-level contradiction review across core files.
+
+**Definition of done**
+- All core terms are normalized and cross-referenced.
+- At least 4/8 stage contracts are drafted and peer-reviewed.
+- Contradictions are logged and assigned owners.
+
+### Sprint 2 (Days 15–30)
+**Objective:** complete core-stage contracts and publish review candidate.
+
+**Planned tasks**
+- Finish contracts for all 8 stages.
+- Align architecture diagrams to contract semantics.
+- Prepare v0.1 review package for external readers.
+
+**Definition of done**
+- 8/8 contracts are complete and linked from the architecture docs.
+- Diagram-text parity checklist passes.
+- Review package includes open questions and decision log updates.
+
+## Stakeholder review cadence
+- **Weekly:** implementation sync (owners, blockers, risk review).
+- **Biweekly:** protocol governance review (core boundary protection).
+- **Monthly:** external feedback session focused on clarity and reproducibility.
