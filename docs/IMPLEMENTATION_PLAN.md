@@ -17,7 +17,11 @@ Remaining for next maturity level (post-100% of initial contract scope):
 Progress on next maturity level:
 - Worked-examples pack **complete for Phase 2**: 4/4 examples drafted (`individual_operator`, `human_team`, `ai_agent`, `hybrid_human_ai`) with paired machine-readable traces under `docs/examples/traces/`.
 - Minimal trace schema published at `docs/schema/cycle_trace.schema.json`; all four trace files conform to it.
-- Benchmark bridge outline scaffolded at `docs/BENCHMARK_BRIDGE_OUTLINE.md` (next step: convert outline into evaluation rubric and stress scenarios per Phase 4).
+- Benchmark bridge outline scaffolded at `docs/BENCHMARK_BRIDGE_OUTLINE.md`.
+- **Phase 4 artifacts now drafted:**
+  - Evaluation rubric at `docs/EVALUATION_RUBRIC.md` (8 dimensions, non-substitutive scoring).
+  - Full benchmark bridge at `docs/BENCHMARK_BRIDGE.md` (mapping, required package fields, non-substitution principle).
+  - Three divergence scenarios under `docs/scenarios/` covering: high-score/weak-transfer, moderate-score/strong-correction-loop, fast/unstable-trajectory.
 
 ## Scope and assumptions
 - **In scope:** documentation hardening, reference artifacts, lightweight examples, and validation methodology.
