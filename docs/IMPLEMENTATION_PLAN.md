@@ -14,10 +14,10 @@ Remaining for next maturity level (post-100% of initial contract scope):
 - Add minimal trace schema and benchmark bridge artifacts.
 - Move contracts from Draft to Reviewed/Approved via governance cadence.
 
-Progress started for this next maturity level:
-- Worked-examples starter pack scaffolded at `docs/examples/README.md`.
-- Minimal trace schema scaffolded at `docs/schema/cycle_trace.schema.json`.
-- Benchmark bridge outline scaffolded at `docs/BENCHMARK_BRIDGE_OUTLINE.md`.
+Progress on next maturity level:
+- Worked-examples pack **complete for Phase 2**: 4/4 examples drafted (`individual_operator`, `human_team`, `ai_agent`, `hybrid_human_ai`) with paired machine-readable traces under `docs/examples/traces/`.
+- Minimal trace schema published at `docs/schema/cycle_trace.schema.json`; all four trace files conform to it.
+- Benchmark bridge outline scaffolded at `docs/BENCHMARK_BRIDGE_OUTLINE.md` (next step: convert outline into evaluation rubric and stress scenarios per Phase 4).
 
 ## Scope and assumptions
 - **In scope:** documentation hardening, reference artifacts, lightweight examples, and validation methodology.

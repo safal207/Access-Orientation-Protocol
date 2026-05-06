@@ -1,0 +1,67 @@
+{
+  "cycle_id": "human-team-001",
+  "objective": "Reduce post-release defects via specification entry quality, validated by customer signal",
+  "stages": [
+    {
+      "stage_id": "00",
+      "name": "Resonance (Self)",
+      "status": "ok",
+      "notes": "Team calibration surfaced unspoken quality-bar disagreement",
+      "evidence": ["team_calibration_note.md", "uncertainty_register.md"]
+    },
+    {
+      "stage_id": "01",
+      "name": "Access Point",
+      "status": "ok",
+      "notes": "Selected spec entry quality over capacity expansion",
+      "evidence": ["anchor_decision_record.md"]
+    },
+    {
+      "stage_id": "02",
+      "name": "Assembly",
+      "status": "ok",
+      "notes": "Bounded to incident reports and defect-correlated specs",
+      "evidence": ["assembly_manifest.md"]
+    },
+    {
+      "stage_id": "03",
+      "name": "Orientation",
+      "status": "ok",
+      "notes": "Causal map links ambiguity to regression",
+      "evidence": ["orientation_map.md"]
+    },
+    {
+      "stage_id": "04",
+      "name": "Transition",
+      "status": "ok",
+      "notes": "Operative triggers and rollback condition adopted",
+      "evidence": ["transition_checklist.md"]
+    },
+    {
+      "stage_id": "05",
+      "name": "Movement",
+      "status": "partial",
+      "notes": "One feature bypassed checklist; corrected via rollback to stage 04",
+      "evidence": ["movement_log.md", "waiver_record.md"]
+    },
+    {
+      "stage_id": "06",
+      "name": "Trajectory",
+      "status": "ok",
+      "notes": "Regression rate trend down over two months",
+      "evidence": ["trajectory_report.md"]
+    },
+    {
+      "stage_id": "07",
+      "name": "Resonance (World)",
+      "status": "partial",
+      "notes": "Customer signal validated defect work; latency concern surfaced",
+      "evidence": ["customer_signal_packet.md"]
+    }
+  ],
+  "world_verdict": "partial",
+  "next_cycle_inputs": [
+    "Open new cycle scoped to latency, do not merge with current scope",
+    "Formalize waiver protocol so bypasses remain visible"
+  ]
+}

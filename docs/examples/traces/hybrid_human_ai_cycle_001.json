@@ -1,0 +1,67 @@
+{
+  "cycle_id": "hybrid-human-ai-001",
+  "objective": "Produce clinically faithful and tonally aligned patient letters via AI drafting + clinician finalization, validated by patient response",
+  "stages": [
+    {
+      "stage_id": "00",
+      "name": "Resonance (Self)",
+      "status": "ok",
+      "notes": "Two-channel calibration: clinician fatigue/load + agent retrieval/confidence state; explicit handoff contract recorded",
+      "evidence": ["joint_calibration.md"]
+    },
+    {
+      "stage_id": "01",
+      "name": "Access Point",
+      "status": "ok",
+      "notes": "Selected patient-context fit anchor with clinical fidelity as hard invariant",
+      "evidence": ["anchor_decision.md"]
+    },
+    {
+      "stage_id": "02",
+      "name": "Assembly",
+      "status": "ok",
+      "notes": "Consent-bounded patient record + guideline excerpts; provenance per source",
+      "evidence": ["assembly_manifest.md"]
+    },
+    {
+      "stage_id": "03",
+      "name": "Orientation",
+      "status": "ok",
+      "notes": "Joint orientation map with explicitly marked human-only context cues",
+      "evidence": ["orientation_map.md"]
+    },
+    {
+      "stage_id": "04",
+      "name": "Transition",
+      "status": "ok",
+      "notes": "Drafting gated on evidence anchors, human-only cues present, explicit tone constraints",
+      "evidence": ["transition_gate.md"]
+    },
+    {
+      "stage_id": "05",
+      "name": "Movement",
+      "status": "partial",
+      "notes": "AI dropped a hedged caveat; intercepted and rolled back to stage 03 to mark caveat non-negotiable",
+      "evidence": ["movement_log.md", "diff_artifacts/"]
+    },
+    {
+      "stage_id": "06",
+      "name": "Trajectory",
+      "status": "ok",
+      "notes": "Tonal-edit rate decreasing; caveat-removal incidents trending to zero after gate",
+      "evidence": ["trajectory_report.md"]
+    },
+    {
+      "stage_id": "07",
+      "name": "Resonance (World)",
+      "status": "partial",
+      "notes": "Patient response rate up; one residual comprehension gap surfaced via escalation route",
+      "evidence": ["patient_response_packet.md"]
+    }
+  ],
+  "world_verdict": "partial",
+  "next_cycle_inputs": [
+    "Add per-patient comprehension follow-up step",
+    "Treat internal review-pass rate as process metric, not orientation evidence"
+  ]
+}
