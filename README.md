@@ -1,6 +1,6 @@
 # Access Orientation Protocol
 
-**Status:** Early protocol draft / conceptual architecture.
+**Status:** v1.0-draft (publication-ready draft, see [`CHANGELOG.md`](CHANGELOG.md)).
 
 Access Orientation Protocol (AOP) is a documentation-first protocol for orienting action in living systems. It describes how a human, AI agent, team, or adaptive system can move from internal state calibration to externally validated action without reducing the process to a simple linear workflow.
 
@@ -94,6 +94,9 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`. The cor
 ```text
 /
 ├── README.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── VERSIONING.md
 ├── LICENSE
 ├── RIGHTS.md
 ├── .gitignore
@@ -101,11 +104,19 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`. The cor
 │   ├── ANTI_PATTERNS.md
 │   ├── ARCHITECTURE.md
 │   ├── BENCHMARK.md
+│   ├── BENCHMARK_BRIDGE.md
+│   ├── BENCHMARK_BRIDGE_OUTLINE.md
 │   ├── COMPARISON.md
 │   ├── CORE_AND_EXTENSIONS.md
+│   ├── EVALUATION_RUBRIC.md
 │   ├── GLOSSARY.md
+│   ├── IMPLEMENTATION_PLAN.md
 │   ├── STRESS_TEST.md
-│   └── TECHNICAL_BRIEF.md
+│   ├── TECHNICAL_BRIEF.md
+│   ├── contracts/        # 8 stage contracts + template
+│   ├── examples/         # 4 worked examples + traces
+│   ├── scenarios/        # divergence scenarios
+│   └── schema/           # cycle_trace JSON schema
 └── diagrams/
     ├── access_orientation_layers.mmd
     └── access_orientation_loop.mmd
@@ -134,7 +145,9 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`. The cor
 
 ## Current status
 
-This repository is in the **early protocol draft** stage. The current focus is conceptual architecture, terminology consistency, and documentation quality. No production software is implied by the present repository structure.
+This repository is at **v1.0-draft** — a publication-ready draft. The conceptual core, all eight stage contracts, the worked-example pack, the cycle-trace schema, the evaluation rubric, and the benchmark bridge are in place. External review can begin without further structural churn expected before v1.0.
+
+For contribution rules and the extension-proposal protocol see [`CONTRIBUTING.md`](CONTRIBUTING.md). For versioning and breaking-change policy see [`VERSIONING.md`](VERSIONING.md). For the change history see [`CHANGELOG.md`](CHANGELOG.md).
 
 
 ## License

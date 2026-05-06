@@ -3,6 +3,10 @@
 ## Purpose
 This plan translates the existing conceptual architecture of AOP into an executable documentation and reference-model program without collapsing the protocol into a rigid task pipeline.
 
+## Current release
+- **v1.0-draft** is published. See `CHANGELOG.md`, `VERSIONING.md`, `CONTRIBUTING.md`.
+- External review window is open; structural churn before v1.0 is not expected.
+
 ## Implementation status (100% checkpoint)
 Completed artifacts in this repository now cover the full initial stage-contract scope:
 - Stage contract template is published.
