@@ -2,7 +2,7 @@
 
 This document identifies failure cases that reveal where the Access Orientation Protocol breaks or degrades. These are structural stress cases, not edge-case bugs.
 
-## False self resonance
+## False self-resonance
 
 A system reports calm, clarity, or readiness while actually operating from distortion, fear, ideology, exhaustion, or dissociation.
 
@@ -12,7 +12,7 @@ The entire loop inherits a false starting condition. Access points, assemblies, 
 ### Consequence
 The protocol becomes internally elegant but externally unreliable.
 
-## Skipped self resonance
+## Skipped self-resonance
 
 A system begins directly from a problem statement, demand, or command without calibrating its actual internal state.
 

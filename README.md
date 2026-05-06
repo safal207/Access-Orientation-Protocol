@@ -1,6 +1,6 @@
 # Access Orientation Protocol
 
-**Status:** Early protocol draft / conceptual architecture.
+**Status:** v1.0-draft (publication-ready draft, see [`CHANGELOG.md`](CHANGELOG.md)).
 
 Access Orientation Protocol (AOP) is a documentation-first protocol for orienting action in living systems. It describes how a human, AI agent, team, or adaptive system can move from internal state calibration to externally validated action without reducing the process to a simple linear workflow.
 
@@ -94,6 +94,9 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`. The cor
 ```text
 /
 ├── README.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── VERSIONING.md
 ├── LICENSE
 ├── RIGHTS.md
 ├── .gitignore
@@ -101,11 +104,19 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`. The cor
 │   ├── ANTI_PATTERNS.md
 │   ├── ARCHITECTURE.md
 │   ├── BENCHMARK.md
+│   ├── BENCHMARK_BRIDGE.md
+│   ├── BENCHMARK_BRIDGE_OUTLINE.md
 │   ├── COMPARISON.md
 │   ├── CORE_AND_EXTENSIONS.md
+│   ├── EVALUATION_RUBRIC.md
 │   ├── GLOSSARY.md
+│   ├── IMPLEMENTATION_PLAN.md
 │   ├── STRESS_TEST.md
-│   └── TECHNICAL_BRIEF.md
+│   ├── TECHNICAL_BRIEF.md
+│   ├── contracts/        # 8 stage contracts + template
+│   ├── examples/         # 4 worked examples + traces
+│   ├── scenarios/        # divergence scenarios
+│   └── schema/           # cycle_trace JSON schema
 └── diagrams/
     ├── access_orientation_layers.mmd
     └── access_orientation_loop.mmd
@@ -113,28 +124,22 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`. The cor
 
 ## Roadmap
 
-### Phase 1: Protocol clarity
-- establish stable terminology;
-- define stage boundaries and invariants;
-- document failure modes and anti-patterns;
-- align diagrams with the textual architecture;
-- keep the minimal core distinct from later interpretations and extensions.
+The full phased plan lives in [`docs/IMPLEMENTATION_PLAN.md`](docs/IMPLEMENTATION_PLAN.md). Summary of the v1.0-draft state:
 
-### Phase 2: Reference interpretation
-- add worked examples for humans, AI agents, teams, and adaptive systems;
-- define evaluation and benchmarking interpretations that apply the protocol without collapsing it into scoring.
+- **Phase 0 — Alignment and baseline:** complete.
+- **Phase 1 — Core specification hardening:** 8/8 stage contracts drafted.
+- **Phase 2 — Reference interpretation pack:** 4/4 worked examples + machine-readable traces.
+- **Phase 3 — Minimal reference model:** cycle-trace JSON schema published.
+- **Phase 4 — Evaluation and benchmark bridge:** rubric, bridge, and three divergence scenarios drafted.
+- **Phase 5 — Stabilization and publication:** v1.0-draft cut; external review window open.
 
-### Phase 3: Reference models
-- show how the protocol constrains execution and evaluation layers without becoming either one;
-- introduce lightweight illustrative implementations only where they clarify the protocol.
-
-### Phase 4: Benchmark and transfer
-- formalize the Access Orientation Benchmark as an orientation-aware evaluation spec;
-- connect benchmark results to long-run behavior and world transfer rather than isolated scores.
+Future work after v1.0-draft includes promoting stage contracts from Draft to Reviewed/Approved, expanding the divergence-scenario corpus, and additive (non-breaking) schema enrichments — see `VERSIONING.md` for what changes require a major version bump.
 
 ## Current status
 
-This repository is in the **early protocol draft** stage. The current focus is conceptual architecture, terminology consistency, and documentation quality. No production software is implied by the present repository structure.
+This repository is at **v1.0-draft** — a publication-ready draft. The conceptual core, all eight stage contracts, the worked-example pack, the cycle-trace schema, the evaluation rubric, and the benchmark bridge are in place. External review can begin without further structural churn expected before v1.0.
+
+For contribution rules and the extension-proposal protocol see [`CONTRIBUTING.md`](CONTRIBUTING.md). For versioning and breaking-change policy see [`VERSIONING.md`](VERSIONING.md). For the change history see [`CHANGELOG.md`](CHANGELOG.md).
 
 
 ## License

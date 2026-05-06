@@ -1,0 +1,67 @@
+{
+  "cycle_id": "ai-agent-001",
+  "objective": "Produce grounded weekly competitive intelligence summary, validated by stakeholder spot-check",
+  "stages": [
+    {
+      "stage_id": "00",
+      "name": "Resonance (Self)",
+      "status": "ok",
+      "notes": "Calibration emitted retrieval-health and confidence band per topic",
+      "evidence": ["agent_calibration.json"]
+    },
+    {
+      "stage_id": "01",
+      "name": "Access Point",
+      "status": "ok",
+      "notes": "Selected evidence-bounded scope over breadth maximization",
+      "evidence": ["anchor_decision.json"]
+    },
+    {
+      "stage_id": "02",
+      "name": "Assembly",
+      "status": "ok",
+      "notes": "Retrieval bounded by source allowlist, freshness window, and minimum evidence count",
+      "evidence": ["assembly_manifest.json"]
+    },
+    {
+      "stage_id": "03",
+      "name": "Orientation",
+      "status": "ok",
+      "notes": "Claim-evidence pairing produced; unsupported claims flagged",
+      "evidence": ["orientation_map.json"]
+    },
+    {
+      "stage_id": "04",
+      "name": "Transition",
+      "status": "ok",
+      "notes": "Generation gated on evidence coverage threshold",
+      "evidence": ["transition_gate.json"]
+    },
+    {
+      "stage_id": "05",
+      "name": "Movement",
+      "status": "partial",
+      "notes": "Citation gate intercepted one fabricated metric; corrected via stage 02 rollback",
+      "evidence": ["movement_log.json", "report_v1.md"]
+    },
+    {
+      "stage_id": "06",
+      "name": "Trajectory",
+      "status": "ok",
+      "notes": "Share of cited claims trending up; hallucination interception trending down",
+      "evidence": ["trajectory_report.json"]
+    },
+    {
+      "stage_id": "07",
+      "name": "Resonance (World)",
+      "status": "partial",
+      "notes": "9/10 spot-checks verifiable; one attribution error remains",
+      "evidence": ["stakeholder_spotcheck.json"]
+    }
+  ],
+  "world_verdict": "partial",
+  "next_cycle_inputs": [
+    "Add claim-source pairing audit at stage 03",
+    "Preserve open-questions block as first-class output, not noise"
+  ]
+}

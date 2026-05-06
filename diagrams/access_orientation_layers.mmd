@@ -1,11 +1,36 @@
 flowchart TB
     subgraph Protocol[Access Orientation Protocol]
-        direction LR
-        RS["Resonance (Self)"] --> AP["Access Point"] --> AS["Assembly"] --> OR["Orientation"] --> TR["Transition"] --> MV["Movement"] --> TJ["Trajectory"] --> RW["Resonance (World)"]
+        direction TB
+
+        subgraph BC[Layer 1 — Boundary calibration]
+            direction LR
+            RS["0. Resonance (Self)"]
+            RW["7. Resonance (World)"]
+        end
+
+        subgraph EC[Layer 2 — Entry and composition]
+            direction LR
+            AP["1. Access Point"]
+            AS["2. Assembly"]
+        end
+
+        subgraph SO[Layer 3 — State organization]
+            direction LR
+            OR["3. Orientation"]
+            TR["4. Transition"]
+        end
+
+        subgraph AO[Layer 4 — Action and observation]
+            direction LR
+            MV["5. Movement"]
+            TJ["6. Trajectory"]
+        end
+
+        RS --> AP --> AS --> OR --> TR --> MV --> TJ --> RW
+        RW --> RS
     end
 
     World["External reality / feedback"] --> RW
-    RW --> RS
 
     subgraph Execution[Optional execution and runtime layers below the protocol]
         direction LR
@@ -15,3 +40,6 @@ flowchart TB
     OR -. constrains .-> Plan
     MV -. expressed through .-> Tools
     TJ -. interpreted from .-> Observe
+
+    classDef boundary fill:#eef6ff,stroke:#4472c4,stroke-width:2px;
+    class RS,RW boundary;

@@ -4,10 +4,17 @@
 - Stage ID: 07
 - Stage Name: Resonance (World)
 - Layer: Boundary calibration
-- Version: v0.1
-- Status: Draft
+- Version: v0.2
+- Status: Reviewed
+- Reviewed on: 2026-05-06
 - Owners: QA/review lead
 - Reviewers: Protocol editor
+
+## Review notes (v0.2)
+- Invariant "external contradiction has priority over internal satisfaction" is the load-bearing rule; aligned with rubric D7 and with the non-substitution principle in `BENCHMARK_BRIDGE.md`.
+- Verdict enum (`validated` / `partial` / `invalidated`) matches the `world_verdict` field in `cycle_trace.schema.json`.
+- Recovery protocol re-enters at stage 00 with contradiction-informed assumptions, closing the loop into the next cycle.
+- Open question deferred: whether "external validation channel" should require a typed taxonomy (e.g., user feedback, downstream metric, third-party audit). Left untyped for v0.2 because worked examples already demonstrate diverse channels.
 
 ## Intent
 Close the loop by validating outcomes against external reality feedback.

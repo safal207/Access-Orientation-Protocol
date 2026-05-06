@@ -4,10 +4,17 @@
 - Stage ID: 01
 - Stage Name: Access Point
 - Layer: Entry and composition
-- Version: v0.1
-- Status: Draft
+- Version: v0.2
+- Status: Reviewed
+- Reviewed on: 2026-05-06
 - Owners: Protocol editor
 - Reviewers: Example lead
+
+## Review notes (v0.2)
+- Two-candidate-minimum precondition makes "selection by team habit only" detectable; aligns with rubric D1.
+- Inputs match the mandatory outputs of `00 Resonance (Self)`; hand-off contract preserved.
+- Recovery protocol explicitly returns to stage 00, which matches the failure-handling pattern across the loop.
+- Open question deferred: whether the rejected-alternatives log should be a separate artifact or embedded in the decision table; treated as an editorial choice for now.
 
 ## Intent
 Identify the true entry anchor that is causally relevant to the objective.

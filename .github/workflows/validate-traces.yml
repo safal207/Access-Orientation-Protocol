@@ -1,0 +1,46 @@
+name: Validate cycle traces
+
+on:
+  pull_request:
+    paths:
+      - "docs/examples/traces/**"
+      - "docs/schema/cycle_trace.schema.json"
+      - ".github/workflows/validate-traces.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/examples/traces/**"
+      - "docs/schema/cycle_trace.schema.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli@5 ajv-formats@3
+
+      - name: Validate every trace against cycle_trace.schema.json
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          traces=(docs/examples/traces/*.json)
+          if [ ${#traces[@]} -eq 0 ]; then
+            echo "No traces found under docs/examples/traces/. Failing to surface a likely misconfiguration."
+            exit 1
+          fi
+          for trace in "${traces[@]}"; do
+            echo "Validating $trace"
+            ajv validate \
+              -s docs/schema/cycle_trace.schema.json \
+              -d "$trace" \
+              --spec=draft2020 \
+              --strict=true
+          done

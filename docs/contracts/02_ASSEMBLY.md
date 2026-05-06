@@ -4,10 +4,17 @@
 - Stage ID: 02
 - Stage Name: Assembly
 - Layer: Entry and composition
-- Version: v0.1
-- Status: Draft
+- Version: v0.2
+- Status: Reviewed
+- Reviewed on: 2026-05-06
 - Owners: Example lead
 - Reviewers: QA/review lead
+
+## Review notes (v0.2)
+- Inclusion/exclusion preconditions directly counter the "assembly-as-accumulation" anti-pattern named by rubric D2.
+- Inputs match Outputs of `01 Access Point`; hand-off chain intact.
+- Recovery protocol (prune to criteria) is reachable without reopening stage 00, which is the correct minimal-rollback for this stage.
+- Open question deferred: whether provenance tagging per artifact should be required (currently implied by "traceable to anchor relevance"). Will revisit when worked-example traces gain a `provenance` field.
 
 ## Intent
 Collect only the information and components required for the selected anchor.

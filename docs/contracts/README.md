@@ -17,4 +17,11 @@ This directory contains the normative stage-contract artifacts for the Access Or
 
 ## Status
 - Coverage: 8/8 stages drafted.
-- Contract status: Draft (pending governance review for approval).
+- Contract status: **Reviewed (v0.2)** as of 2026-05-06. Each contract carries a `Review notes (v0.2)` section documenting anti-pattern coverage, schema/rubric alignment, and any items deferred to the next review cycle.
+- Next governance milestone: promotion from Reviewed to Approved, gated on external review and on resolving the v0.3 changes flagged in individual contracts (notably promoting the rollback condition in `04_TRANSITION` from Optional to Mandatory).
+
+## Review summary (v0.2)
+- Hand-off chain `00 → 01 → 02 → 03 → 04 → 05 → 06 → 07 → 00` verified end-to-end.
+- Anti-patterns from `docs/STRESS_TEST.md` mapped to at least one stage each.
+- Stage outputs map to rubric dimensions in `docs/EVALUATION_RUBRIC.md` and to the `evidence` array of `docs/schema/cycle_trace.schema.json`.
+- No structural rewrites required at v0.2; deferred items recorded inline in each contract for the next iteration.
