@@ -8,7 +8,9 @@ adapted for a documentation-first protocol.
 
 ## [Unreleased]
 - Stage contracts promoted from **Draft (v0.1)** to **Reviewed (v0.2)** for all 8 stages. Each contract carries a `Review notes (v0.2)` section recording anti-pattern coverage, schema/rubric alignment, and items deferred to the next review iteration.
-- `04 Transition` review flagged a v0.3 change: promote the rollback condition from Optional to Mandatory. This is a non-breaking output addition per `VERSIONING.md` and will land in the next iteration.
+- `04 Transition` advanced to **v0.3**: rollback conditions promoted from Optional to Mandatory output (additive strengthening, non-breaking per `VERSIONING.md`). All worked examples already treat rollback as required for D4 (Transition continuity).
+- Diagram-text parity: `diagrams/access_orientation_layers.mmd` updated to group the 8 stages into the four conceptual layers from `README.md` (Boundary calibration / Entry and composition / State organization / Action and observation), matching the `Layer` field in each stage contract.
+- CI: added `.github/workflows/validate-traces.yml` which validates every file under `docs/examples/traces/` against `docs/schema/cycle_trace.schema.json` using `ajv-cli` with `--strict=true` and draft 2020-12. All four current traces validate locally.
 - Next milestone: promotion from **Reviewed** to **Approved** after external review.
 
 ## [v1.0-draft] — 2026-05-06

@@ -4,15 +4,15 @@
 - Stage ID: 04
 - Stage Name: Transition
 - Layer: State organization
-- Version: v0.2
+- Version: v0.3
 - Status: Reviewed
-- Reviewed on: 2026-05-06
+- Reviewed on: 2026-05-06 (v0.2), 2026-05-06 (v0.3 — rollback promoted to Mandatory)
 - Owners: Protocol editor
 - Reviewers: QA/review lead
 
 ## Review notes (v0.2)
 - Anti-pattern coverage matches "abrupt transition" from `STRESS_TEST.md`; trigger-condition precondition makes the failure detectable.
-- Rollback condition is listed as Optional output; review concluded it should be **promoted to Mandatory in v0.3** because all worked examples (`docs/examples/`) treat it as required for D4 (Transition continuity). Tracked as a v0.3 change because the promotion is non-breaking per `VERSIONING.md`.
+- Rollback condition was promoted from Optional to Mandatory in v0.3 (additive output strengthening per `VERSIONING.md`); all worked examples in `docs/examples/` already treat it as required for D4 (Transition continuity).
 - Hand-off Inputs to `05 Movement` are consistent.
 - Open question deferred: minimum number of trigger conditions before transition is allowed.
 
@@ -36,8 +36,8 @@ Cross from orientation into an operative state without rupture or loss of cohere
 - Replacing orientation with urgency-driven improvisation.
 
 ## Outputs
-- Mandatory: transition plan, trigger checklist
-- Optional: rollback conditions
+- Mandatory: transition plan, trigger checklist, rollback conditions
+- Optional: state-shift annotations
 
 ## Exit criteria
 - Transition conditions are testable by reviewer.
