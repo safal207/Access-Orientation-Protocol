@@ -4,10 +4,17 @@
 - Stage ID: 06
 - Stage Name: Trajectory
 - Layer: Action and observation
-- Version: v0.1
-- Status: Draft
+- Version: v0.2
+- Status: Reviewed
+- Reviewed on: 2026-05-06
 - Owners: QA/review lead
 - Reviewers: Protocol editor
+
+## Review notes (v0.2)
+- "Judgments on temporal patterns, not isolated events" defends against "illusory trajectory" from `STRESS_TEST.md`; rubric D6 alignment confirmed.
+- Observation-window precondition is the falsifiable check that an external reviewer can run.
+- Hand-off to `07 Resonance (World)` correctly carries trajectory assessment + evidence links for external validation.
+- Open question deferred: whether "drift thresholds" should be standardized across system types or kept context-specific. Kept context-specific to preserve cross-system applicability.
 
 ## Intent
 Observe and evaluate the pattern of movement over time, not just single-step outputs.

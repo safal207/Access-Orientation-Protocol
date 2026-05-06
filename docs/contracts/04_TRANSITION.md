@@ -4,10 +4,17 @@
 - Stage ID: 04
 - Stage Name: Transition
 - Layer: State organization
-- Version: v0.1
-- Status: Draft
+- Version: v0.2
+- Status: Reviewed
+- Reviewed on: 2026-05-06
 - Owners: Protocol editor
 - Reviewers: QA/review lead
+
+## Review notes (v0.2)
+- Anti-pattern coverage matches "abrupt transition" from `STRESS_TEST.md`; trigger-condition precondition makes the failure detectable.
+- Rollback condition is listed as Optional output; review concluded it should be **promoted to Mandatory in v0.3** because all worked examples (`docs/examples/`) treat it as required for D4 (Transition continuity). Tracked as a v0.3 change because the promotion is non-breaking per `VERSIONING.md`.
+- Hand-off Inputs to `05 Movement` are consistent.
+- Open question deferred: minimum number of trigger conditions before transition is allowed.
 
 ## Intent
 Cross from orientation into an operative state without rupture or loss of coherence.

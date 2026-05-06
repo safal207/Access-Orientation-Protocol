@@ -14,9 +14,9 @@ Completed artifacts in this repository now cover the full initial stage-contract
 - Practical kickoff checklist and issue template are available for execution governance.
 
 Remaining for next maturity level (post-100% of initial contract scope):
-- Add worked examples across four system types.
-- Add minimal trace schema and benchmark bridge artifacts.
-- Move contracts from Draft to Reviewed/Approved via governance cadence.
+- Add worked examples across four system types. ✅
+- Add minimal trace schema and benchmark bridge artifacts. ✅
+- Move contracts from Draft to Reviewed/Approved via governance cadence. ✅ Reviewed (v0.2) on 2026-05-06; Approved still pending external review.
 
 Progress on next maturity level:
 - Worked-examples pack **complete for Phase 2**: 4/4 examples drafted (`individual_operator`, `human_team`, `ai_agent`, `hybrid_human_ai`) with paired machine-readable traces under `docs/examples/traces/`.

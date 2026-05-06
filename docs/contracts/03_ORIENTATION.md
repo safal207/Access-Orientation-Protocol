@@ -4,10 +4,17 @@
 - Stage ID: 03
 - Stage Name: Orientation
 - Layer: State organization
-- Version: v0.1
-- Status: Draft
+- Version: v0.2
+- Status: Reviewed
+- Reviewed on: 2026-05-06
 - Owners: Protocol editor
 - Reviewers: Example lead
+
+## Review notes (v0.2)
+- "Orientation remains relational, not just task listing" is the load-bearing invariant; the anti-pattern entry against checklist-conversion makes it falsifiable.
+- Aligned with rubric D3 (Orientation depth) and with the architectural principle that orientation is broader than planning.
+- Hand-off to `04 Transition` provides the prioritized direction set required by the next contract's Inputs.
+- Open question deferred: whether trade-off documentation should be a separate evidence artifact rather than a sub-section of the orientation map.
 
 ## Intent
 Restore internal coordinates: relation, direction, and priority structure.
