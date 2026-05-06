@@ -21,11 +21,14 @@ Concrete action taken from a sufficiently centered and transitioned state. Movem
 ## Trajectory
 The pattern of motion observed over time. Trajectory is not just a step sequence or event log; it is the shape and direction of movement across duration.
 
-## World Resonance
-External validation, correction, or contradiction provided by reality. World resonance is not internal satisfaction or group agreement; it is response from conditions outside the system's self-description.
+## Resonance (Self)
+The mandatory entry stage of the cycle (`stage 00`). Calibration of the system to its actual internal state, including declared uncertainty and known-unknowns. As a noun, the underlying capacity is referred to as **self-resonance**. Without it, later stages inherit a false starting condition.
+
+## Resonance (World)
+The mandatory completion stage of the cycle (`stage 07`). External validation, correction, or contradiction provided by reality. As a noun, the underlying signal is referred to as **world resonance**. It is not internal satisfaction or group agreement; it is response from conditions outside the system's self-description. Without it, the loop is incomplete regardless of internal closure.
 
 ## Loop
-A recurring cycle in which outputs re-enter the system as conditions for renewed calibration. In this protocol, the loop remains incomplete until world resonance occurs.
+A recurring cycle in which outputs re-enter the system as conditions for renewed calibration. In this protocol, the loop remains incomplete until **Resonance (World)** occurs.
 
 ## Anchor
 A stable point of entry or reference that allows the system to orient without drifting into abstraction, noise, or convenience.

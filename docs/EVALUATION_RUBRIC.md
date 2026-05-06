@@ -20,7 +20,7 @@ A dimension with score 1 ("asserted only") is treated as **failing** for governa
 ### D1 — Entry integrity (stages 00–01)
 - Self-state calibration is recorded with at least one declared uncertainty.
 - Access point is selected against rejected alternatives with stated rationale.
-- **Anti-pattern detector:** "skipped self resonance" — cycle starts directly from a task statement.
+- **Anti-pattern detector:** "skipped self-resonance" — cycle starts directly from a task statement.
 
 ### D2 — Assembly relevance (stage 02)
 - Inputs have explicit provenance and inclusion/exclusion rationale.

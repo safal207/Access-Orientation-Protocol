@@ -124,24 +124,16 @@ The first benchmark-specific specification lives in `docs/BENCHMARK.md`. The cor
 
 ## Roadmap
 
-### Phase 1: Protocol clarity
-- establish stable terminology;
-- define stage boundaries and invariants;
-- document failure modes and anti-patterns;
-- align diagrams with the textual architecture;
-- keep the minimal core distinct from later interpretations and extensions.
+The full phased plan lives in [`docs/IMPLEMENTATION_PLAN.md`](docs/IMPLEMENTATION_PLAN.md). Summary of the v1.0-draft state:
 
-### Phase 2: Reference interpretation
-- add worked examples for humans, AI agents, teams, and adaptive systems;
-- define evaluation and benchmarking interpretations that apply the protocol without collapsing it into scoring.
+- **Phase 0 — Alignment and baseline:** complete.
+- **Phase 1 — Core specification hardening:** 8/8 stage contracts drafted.
+- **Phase 2 — Reference interpretation pack:** 4/4 worked examples + machine-readable traces.
+- **Phase 3 — Minimal reference model:** cycle-trace JSON schema published.
+- **Phase 4 — Evaluation and benchmark bridge:** rubric, bridge, and three divergence scenarios drafted.
+- **Phase 5 — Stabilization and publication:** v1.0-draft cut; external review window open.
 
-### Phase 3: Reference models
-- show how the protocol constrains execution and evaluation layers without becoming either one;
-- introduce lightweight illustrative implementations only where they clarify the protocol.
-
-### Phase 4: Benchmark and transfer
-- formalize the Access Orientation Benchmark as an orientation-aware evaluation spec;
-- connect benchmark results to long-run behavior and world transfer rather than isolated scores.
+Future work after v1.0-draft includes promoting stage contracts from Draft to Reviewed/Approved, expanding the divergence-scenario corpus, and additive (non-breaking) schema enrichments — see `VERSIONING.md` for what changes require a major version bump.
 
 ## Current status
 
